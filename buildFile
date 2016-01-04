@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<VASSAL.launch.BasicModule VassalVersion="3.2.15" description="©2001-2015 Privateer Press, Inc." name="Warmachine &amp; Hordes MKII" nextPieceSlotId="22552" version="4.4.2-2">
+<VASSAL.launch.BasicModule VassalVersion="3.2.15" description="©2001-2015 Privateer Press, Inc." name="Warmachine &amp; Hordes MKII" nextPieceSlotId="22552" version="4.4.2-3">
     <VASSAL.build.module.BasicCommandEncoder/>
     <VASSAL.build.module.Documentation>
         <VASSAL.build.module.documentation.AboutScreen title="About Vassal"/>
@@ -1714,7 +1714,7 @@
                             </VASSAL.build.widget.ListWidget>
                             <VASSAL.build.widget.PanelWidget entryName="Imperatus" fixed="false" nColumns="3" vert="false">
                                 <VASSAL.build.widget.ListWidget divider="400" entryName="List" height="400" width="800">
-                                    <VASSAL.build.widget.PieceSlot entryName="Imperatus" gpid="22044" height="400" width="800">+/null/PROP;ModelName;false,0,100,false;Change Label:76\,130:R\,Change Label\:	prototype;Warjack\	prototype;Model\\	prototype;50mm Base\\\	emb2;;2;;Cycle Art Down;2;;Cycle Art Up;2;;;;;false;0;0;Imperitus1.png,R_J_HeavyWreck.png,Imperitus2.png,180mmBlank.png;1,,,;true;Sprite;;;false;SpriteLayer;1;1;true;;93,0;91,0\\\\	piece;;;R_50mm.png;Imperatus/Imperatus	\	\\	\\\	1\\\\	null;0;0;22044</VASSAL.build.widget.PieceSlot>
+                                    <VASSAL.build.widget.PieceSlot entryName="Imperatus" gpid="22044" height="400" width="800">+/null/PROP;ModelName;false,0,100,false;Change Label:76\,130:R\,Change Label\:	prototype;Warjack\	prototype;Model\\	prototype;50mm Base\\\	emb2;;2;;Cycle Art Down;2;;Cycle Art Up;2;;;;;false;0;0;Imperitus1.png,Imperitus2.png,R_J_HeavyWreck.png,180mmBlank.png;1,,,;true;Sprite;;;false;SpriteLayer;1;1;true;;93,0;91,0\\\\	piece;;;R_50mm.png;Imperatus/Imperatus	\	\\	\\\	1\\\\	null;0;0;22044</VASSAL.build.widget.PieceSlot>
                                     <VASSAL.build.widget.PieceSlot entryName="Grid" gpid="22045" height="400" width="800">+/null/prototype;Warjack Grid	label;76,130;Change Label;16;;0,0,0;t;0;c;0;b;c;$pieceName$ ($label$);Dialog;0;0;TextLabel;\	piece;;;Imperitus grid.png;Grid/	Imperatus\	null;0;0;22045</VASSAL.build.widget.PieceSlot>
                                 </VASSAL.build.widget.ListWidget>
                             </VASSAL.build.widget.PanelWidget>
@@ -1774,7 +1774,7 @@
                                 </VASSAL.build.widget.ListWidget>
                             </VASSAL.build.widget.PanelWidget>
                             <VASSAL.build.widget.PieceSlot entryName="Dawnguard Destor" gpid="3400" height="400" width="800">+/null/PROP;ModelName;false,0,100,false;Change Label:76\,130:R\,Change Label\:	prototype;Unit\	prototype;Model\\	prototype;50mm Base\\\	emb2;;0;;Cycle Art Down;0;];Cycle Art Up;0;[;;;;false;0;0;R_U_Destor.png,180mmBlank.png;1,;true;Sprite;;;false;SpriteLayer;1;1;true;;93,0;91,0\\\\	piece;;;R_50mm.png;Dawnguard Destor/Dawnguard Destor	\	\\	\\\	1\\\\	null;0;0;3400</VASSAL.build.widget.PieceSlot>
-                            <VASSAL.build.widget.PieceSlot entryName="House Shyeel Battle Mages" gpid="3455" height="400" width="800">+/null/PROP;ModelName;false,0,100,false;Change Label:76\,130:R\,Change Label\:	prototype;Unit\	prototype;Model\\	prototype;30mm Base\\\	emb2;;2;;Cycle Art Down;2;;Cycle Art Up;2;;;;;false;0;0;R_U_Battlemage.png,R_30mm.png;1,;true;Sprite;;;false;SpriteLayer;1;1;true;;93,0;91,0\\\\	piece;;;R_30mm.png;House Shyeel Battle Mages/House Shyeel Battle Mages	\	\\	\\\	1\\\\	null;0;0;3455</VASSAL.build.widget.PieceSlot>
+                            <VASSAL.build.widget.PieceSlot entryName="House Shyeel Battle Mages" gpid="3455" height="400" width="800">+/null/PROP;ModelName;false,0,100,false;Change Label:76\,130:R\,Change Label\:	prototype;Unit\	prototype;Model\\	prototype;30mm Base\\\	emb2;;2;;Cycle Art Down;2;;Cycle Art Up;2;;;;;false;0;0;R_U_Battlemage.png,180mmBlank.png;1,;true;Sprite;;;false;SpriteLayer;1;1;true;;93,0;91,0\\\\	piece;;;R_30mm.png;House Shyeel Battle Mages/House Shyeel Battle Mages	\	\\	\\\	1\\\\	null;0;0;3455</VASSAL.build.widget.PieceSlot>
                             <VASSAL.build.widget.PanelWidget entryName="Houseguard Halberdiers" fixed="false" nColumns="3" vert="false">
                                 <VASSAL.build.widget.ListWidget divider="400" entryName="List" height="400" width="800">
                                     <VASSAL.build.widget.PieceSlot entryName="Houseguard Halberdier" gpid="3481" height="400" width="800">+/null/PROP;ModelName;false,0,100,false;Change Label:76\,130:R\,Change Label\:	replace;Officer;82,520;VASSAL.build.module.PieceWindow:Models\/VASSAL.build.widget.BoxWidget:Game\/VASSAL.build.widget.TabWidget:Warmachine\/VASSAL.build.widget.PanelWidget:Retribution\/VASSAL.build.widget.BoxWidget:Retribution (pd)\/VASSAL.build.widget.ListWidget:Units\/VASSAL.build.widget.PanelWidget:Houseguard Halberdiers\/VASSAL.build.widget.ListWidget:List\/VASSAL.build.widget.PieceSlot:Officer;null;0;0;true;96,130;Officer;11144;0;true\	replace;Standard Bearer;82,130;VASSAL.build.module.PieceWindow:Models\/VASSAL.build.widget.BoxWidget:Game\/VASSAL.build.widget.TabWidget:Warmachine\/VASSAL.build.widget.PanelWidget:Retribution\/VASSAL.build.widget.BoxWidget:Retribution (pd)\/VASSAL.build.widget.ListWidget:Units\/VASSAL.build.widget.PanelWidget:Houseguard Halberdiers\/VASSAL.build.widget.ListWidget:List\/VASSAL.build.widget.PieceSlot:Standard Bearer;null;0;0;true;96,130;Standard Bearer;11145;0;true\\	prototype;Replace With\\\	prototype;Unit\\\\	prototype;Model\\\\\	prototype;30mm Base\\\\\\	emb2;;0;;Cycle Art Down;0;];Cycle Art Up;0;[;;;;false;0;0;R_U_Halberdier.png,180mmBlank.png;1,;true;Sprite;;;false;SpriteLayer;1;1;true;;93,0;91,0\\\\\\\	piece;;;R_30mm.png;Houseguard Halberdier/Houseguard Halberdier	\	\\	\\\	\\\\	\\\\\	\\\\\\	1\\\\\\\	null;0;0;3481</VASSAL.build.widget.PieceSlot>
@@ -5619,15 +5619,205 @@
         <VASSAL.build.module.map.Zoomer inButtonText="" inIconName="IconZoomIn.png" inTooltip="Zoom in" outButtonText="" outIconName="IconZoomOut.png" outTooltip="Zoom out" pickButtonText="" pickIconName="IconZoom.png" pickTooltip="Select Zoom" zoomInKey="61,130" zoomLevels="0.4,0.6,0.8,1.0" zoomOutKey="45,130" zoomPickKey="" zoomStart="3"/>
         <VASSAL.build.module.map.HighlightLastMoved color="255,0,0" enabled="true" thickness="2"/>
     </VASSAL.build.module.Map>
+    <VASSAL.build.module.SpecialDiceButton format="$playerName$ * $name$: ($result1$) " hotkey="" icon="" name="1d6" resultButton="false" resultChatter="true" resultWindow="false" text="1d6" tooltip="1d6" windowTitleResultFormat="$name$" windowX="0" windowY="0">
+        <VASSAL.build.module.SpecialDie format="$result$" name="1d6">
+            <VASSAL.build.module.SpecialDieFace icon="" text="1" value="1"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="2" value="2"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="3" value="3"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="4" value="4"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="5" value="5"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="6" value="6"/>
+        </VASSAL.build.module.SpecialDie>
+    </VASSAL.build.module.SpecialDiceButton>
+    <VASSAL.build.module.SpecialDiceButton format="$playerName$ * $name$: ($result1$,$result2$)  [$numericalTotal$]" hotkey="" icon="" name="2d6" resultButton="false" resultChatter="true" resultWindow="false" text="2d6" tooltip="2d6" windowTitleResultFormat="$name$" windowX="0" windowY="0">
+        <VASSAL.build.module.SpecialDie format="$result$" name="1d6">
+            <VASSAL.build.module.SpecialDieFace icon="" text="1" value="1"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="2" value="2"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="3" value="3"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="4" value="4"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="5" value="5"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="6" value="6"/>
+        </VASSAL.build.module.SpecialDie>
+        <VASSAL.build.module.SpecialDie format="$result$" name="1d6">
+            <VASSAL.build.module.SpecialDieFace icon="" text="1" value="1"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="2" value="2"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="3" value="3"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="4" value="4"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="5" value="5"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="6" value="6"/>
+        </VASSAL.build.module.SpecialDie>
+    </VASSAL.build.module.SpecialDiceButton>
+    <VASSAL.build.module.SpecialDiceButton format="$playerName$ * $name$: ($result1$,$result2$,$result3$)  [$numericalTotal$]" hotkey="" icon="" name="3d6" resultButton="false" resultChatter="true" resultWindow="false" text="3d6" tooltip="3d6" windowTitleResultFormat="$name$" windowX="0" windowY="0">
+        <VASSAL.build.module.SpecialDie format="$result$" name="1d6">
+            <VASSAL.build.module.SpecialDieFace icon="" text="1" value="1"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="2" value="2"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="3" value="3"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="4" value="4"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="5" value="5"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="6" value="6"/>
+        </VASSAL.build.module.SpecialDie>
+        <VASSAL.build.module.SpecialDie format="$result$" name="1d6">
+            <VASSAL.build.module.SpecialDieFace icon="" text="1" value="1"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="2" value="2"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="3" value="3"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="4" value="4"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="5" value="5"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="6" value="6"/>
+        </VASSAL.build.module.SpecialDie>
+        <VASSAL.build.module.SpecialDie format="$result$" name="1d6">
+            <VASSAL.build.module.SpecialDieFace icon="" text="1" value="1"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="2" value="2"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="3" value="3"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="4" value="4"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="5" value="5"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="6" value="6"/>
+        </VASSAL.build.module.SpecialDie>
+    </VASSAL.build.module.SpecialDiceButton>
+    <VASSAL.build.module.SpecialDiceButton format="$playerName$ * $name$: ($result1$,$result2$,$result3$,$result4$)  [$numericalTotal$]" hotkey="" icon="" name="4d6" resultButton="false" resultChatter="true" resultWindow="false" text="4d6" tooltip="4d6" windowTitleResultFormat="$name$" windowX="0" windowY="0">
+        <VASSAL.build.module.SpecialDie format="$result$" name="1d6">
+            <VASSAL.build.module.SpecialDieFace icon="" text="1" value="1"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="2" value="2"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="3" value="3"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="4" value="4"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="5" value="5"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="6" value="6"/>
+        </VASSAL.build.module.SpecialDie>
+        <VASSAL.build.module.SpecialDie format="$result$" name="1d6">
+            <VASSAL.build.module.SpecialDieFace icon="" text="1" value="1"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="2" value="2"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="3" value="3"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="4" value="4"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="5" value="5"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="6" value="6"/>
+        </VASSAL.build.module.SpecialDie>
+        <VASSAL.build.module.SpecialDie format="$result$" name="1d6">
+            <VASSAL.build.module.SpecialDieFace icon="" text="1" value="1"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="2" value="2"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="3" value="3"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="4" value="4"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="5" value="5"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="6" value="6"/>
+        </VASSAL.build.module.SpecialDie>
+        <VASSAL.build.module.SpecialDie format="$result$" name="1d6">
+            <VASSAL.build.module.SpecialDieFace icon="" text="1" value="1"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="2" value="2"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="3" value="3"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="4" value="4"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="5" value="5"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="6" value="6"/>
+        </VASSAL.build.module.SpecialDie>
+    </VASSAL.build.module.SpecialDiceButton>
+    <VASSAL.build.module.SpecialDiceButton format="$playerName$ * $name$: ($result1$,$result2$,$result3$,$result4$,$result5$)  [$numericalTotal$]" hotkey="" icon="" name="5d6" resultButton="false" resultChatter="true" resultWindow="false" text="5d6" tooltip="5d6" windowTitleResultFormat="$name$" windowX="0" windowY="0">
+        <VASSAL.build.module.SpecialDie format="$result$" name="1d6">
+            <VASSAL.build.module.SpecialDieFace icon="" text="1" value="1"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="2" value="2"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="3" value="3"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="4" value="4"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="5" value="5"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="6" value="6"/>
+        </VASSAL.build.module.SpecialDie>
+        <VASSAL.build.module.SpecialDie format="$result$" name="1d6">
+            <VASSAL.build.module.SpecialDieFace icon="" text="1" value="1"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="2" value="2"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="3" value="3"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="4" value="4"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="5" value="5"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="6" value="6"/>
+        </VASSAL.build.module.SpecialDie>
+        <VASSAL.build.module.SpecialDie format="$result$" name="1d6">
+            <VASSAL.build.module.SpecialDieFace icon="" text="1" value="1"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="2" value="2"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="3" value="3"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="4" value="4"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="5" value="5"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="6" value="6"/>
+        </VASSAL.build.module.SpecialDie>
+        <VASSAL.build.module.SpecialDie format="$result$" name="1d6">
+            <VASSAL.build.module.SpecialDieFace icon="" text="1" value="1"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="2" value="2"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="3" value="3"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="4" value="4"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="5" value="5"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="6" value="6"/>
+        </VASSAL.build.module.SpecialDie>
+        <VASSAL.build.module.SpecialDie format="$result$" name="1d6">
+            <VASSAL.build.module.SpecialDieFace icon="" text="1" value="1"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="2" value="2"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="3" value="3"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="4" value="4"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="5" value="5"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="6" value="6"/>
+        </VASSAL.build.module.SpecialDie>
+    </VASSAL.build.module.SpecialDiceButton>
+    <VASSAL.build.module.SpecialDiceButton format="$playerName$ * $name$: ($result1$,$result2$,$result3$,$result4$,$result5$,$result6$)  [$numericalTotal$]" hotkey="" icon="" name="6d6" resultButton="false" resultChatter="true" resultWindow="false" text="6d6" tooltip="6d6" windowTitleResultFormat="$name$" windowX="0" windowY="0">
+        <VASSAL.build.module.SpecialDie format="$result$" name="1d6">
+            <VASSAL.build.module.SpecialDieFace icon="" text="1" value="1"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="2" value="2"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="3" value="3"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="4" value="4"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="5" value="5"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="6" value="6"/>
+        </VASSAL.build.module.SpecialDie>
+        <VASSAL.build.module.SpecialDie format="$result$" name="1d6">
+            <VASSAL.build.module.SpecialDieFace icon="" text="1" value="1"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="2" value="2"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="3" value="3"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="4" value="4"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="5" value="5"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="6" value="6"/>
+        </VASSAL.build.module.SpecialDie>
+        <VASSAL.build.module.SpecialDie format="$result$" name="1d6">
+            <VASSAL.build.module.SpecialDieFace icon="" text="1" value="1"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="2" value="2"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="3" value="3"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="4" value="4"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="5" value="5"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="6" value="6"/>
+        </VASSAL.build.module.SpecialDie>
+        <VASSAL.build.module.SpecialDie format="$result$" name="1d6">
+            <VASSAL.build.module.SpecialDieFace icon="" text="1" value="1"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="2" value="2"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="3" value="3"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="4" value="4"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="5" value="5"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="6" value="6"/>
+        </VASSAL.build.module.SpecialDie>
+        <VASSAL.build.module.SpecialDie format="$result$" name="1d6">
+            <VASSAL.build.module.SpecialDieFace icon="" text="1" value="1"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="2" value="2"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="3" value="3"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="4" value="4"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="5" value="5"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="6" value="6"/>
+        </VASSAL.build.module.SpecialDie>
+        <VASSAL.build.module.SpecialDie format="$result$" name="1d6">
+            <VASSAL.build.module.SpecialDieFace icon="" text="1" value="1"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="2" value="2"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="3" value="3"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="4" value="4"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="5" value="5"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="6" value="6"/>
+        </VASSAL.build.module.SpecialDie>
+    </VASSAL.build.module.SpecialDiceButton>
+    <VASSAL.build.module.SpecialDiceButton format="$playerName$ * $name$: ($result1$) " hotkey="" icon="" name="1d3" resultButton="false" resultChatter="true" resultWindow="false" text="1d3" tooltip="1d3" windowTitleResultFormat="$name$" windowX="0" windowY="0">
+        <VASSAL.build.module.SpecialDie format="$result$" name="1d6">
+            <VASSAL.build.module.SpecialDieFace icon="" text="1" value="1"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="2" value="2"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="3" value="3"/>
+        </VASSAL.build.module.SpecialDie>
+    </VASSAL.build.module.SpecialDiceButton>
+    <VASSAL.build.module.SpecialDiceButton format="$PlayerName$ * $name$: $result1$" hotkey="" icon="" name="To Column" resultButton="false" resultChatter="true" resultWindow="false" text="To Column" tooltip="To Column" windowTitleResultFormat="$name$" windowX="30" windowY="30">
+        <VASSAL.build.module.SpecialDie format="[$numericalValue$]" name="To Column">
+            <VASSAL.build.module.SpecialDieFace icon="" text="Column" value="6"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Column" value="5"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Column" value="4"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Column" value="3"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Column" value="2"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Column" value="1"/>
+        </VASSAL.build.module.SpecialDie>
+    </VASSAL.build.module.SpecialDiceButton>
     <VASSAL.i18n.Language/>
-    <VASSAL.build.module.DiceButton addToTotal="0" hotkey="49,130" icon="IconDice.png" nDice="1" nSides="6" name="1d6" plus="0" prompt="false" reportFormat="$playerName$ * $name$ ($result$)" reportTotal="false" sortDice="false" text="1d6" tooltip="1d6"/>
-    <VASSAL.build.module.DiceButton addToTotal="0" hotkey="50,130" icon="IconThin.png" nDice="2" nSides="6" name="2d6" plus="0" prompt="false" reportFormat="$playerName$ * $name$ ($result$)" reportTotal="false" sortDice="false" text="2d6" tooltip="2d6"/>
-    <VASSAL.build.module.DiceButton addToTotal="0" hotkey="51,130" icon="IconThin.png" nDice="3" nSides="6" name="3d6" plus="0" prompt="false" reportFormat="$playerName$ * $name$ ($result$)" reportTotal="false" sortDice="false" text="3d6" tooltip="3d6"/>
-    <VASSAL.build.module.DiceButton addToTotal="0" hotkey="52,130" icon="IconThin.png" nDice="4" nSides="6" name="4d6" plus="0" prompt="false" reportFormat="$playerName$ * $name$ ($result$)" reportTotal="false" sortDice="false" text="4d6" tooltip="4d6"/>
-    <VASSAL.build.module.DiceButton addToTotal="0" hotkey="53,130" icon="IconThin.png" nDice="5" nSides="6" name="5d6" plus="0" prompt="false" reportFormat="$playerName$ * $name$ ($result$)" reportTotal="false" sortDice="false" text="5d6" tooltip="5d6"/>
-    <VASSAL.build.module.DiceButton addToTotal="0" hotkey="54,130" icon="IconThin.png" nDice="6" nSides="6" name="6d6" plus="0" prompt="false" reportFormat="$playerName$ * $name$ ($result$)" reportTotal="false" sortDice="false" text="6d6" tooltip="6d6"/>
-    <VASSAL.build.module.DiceButton addToTotal="0" hotkey="49,195" icon="IconThin.png" nDice="1" nSides="3" name="1d3" plus="0" prompt="false" reportFormat="$playerName$ * $name$ ($result$)" reportTotal="false" sortDice="false" text="1d3" tooltip="1d3"/>
-    <VASSAL.build.module.SpecialDiceButton format="$PlayerName$ * $name$: $result1$" hotkey="84,520" icon="IconThin.png" name="Tough" resultButton="false" resultChatter="true" resultWindow="false" text="Tough" tooltip="Tough" windowTitleResultFormat="$name$" windowX="30" windowY="30">
+    <VASSAL.build.module.SpecialDiceButton format="$PlayerName$ * $name$: $result1$" hotkey="84,520" icon="" name="Tough" resultButton="false" resultChatter="true" resultWindow="false" text="Tough" tooltip="Tough" windowTitleResultFormat="$name$" windowX="30" windowY="30">
         <VASSAL.build.module.SpecialDie format="$result$  [$numericalValue$]" name="Tough Die">
             <VASSAL.build.module.SpecialDieFace icon="" text="Tough" value="6"/>
             <VASSAL.build.module.SpecialDieFace icon="" text="Tough" value="5"/>
@@ -5637,7 +5827,7 @@
             <VASSAL.build.module.SpecialDieFace icon="" text="Not Tough" value="1"/>
         </VASSAL.build.module.SpecialDie>
     </VASSAL.build.module.SpecialDiceButton>
-    <VASSAL.build.module.SpecialDiceButton format="$PlayerName$ * $name$: $result1$" hotkey="84,585" icon="IconThin.png" name="SuperTough Roll" resultButton="false" resultChatter="true" resultWindow="false" text="4+Tough" tooltip="SuperTough Roll" windowTitleResultFormat="$name$" windowX="30" windowY="30">
+    <VASSAL.build.module.SpecialDiceButton format="$PlayerName$ * $name$: $result1$" hotkey="84,585" icon="" name="SuperTough Roll" resultButton="false" resultChatter="true" resultWindow="false" text="4+Tough" tooltip="SuperTough Roll" windowTitleResultFormat="$name$" windowX="30" windowY="30">
         <VASSAL.build.module.SpecialDie format="$result$  [$numericalValue$]" name="Tough Die">
             <VASSAL.build.module.SpecialDieFace icon="" text="Tough" value="6"/>
             <VASSAL.build.module.SpecialDieFace icon="" text="Tough" value="5"/>
@@ -5645,24 +5835,6 @@
             <VASSAL.build.module.SpecialDieFace icon="" text="Not Tough" value="3"/>
             <VASSAL.build.module.SpecialDieFace icon="" text="Not Tough" value="2"/>
             <VASSAL.build.module.SpecialDieFace icon="" text="Not Tough" value="1"/>
-        </VASSAL.build.module.SpecialDie>
-    </VASSAL.build.module.SpecialDiceButton>
-    <VASSAL.build.module.SpecialDiceButton format="&lt;$PlayerName$&gt; * Deviates $result1$&quot; in direction $result2$" hotkey="68,520" icon="IconThin.png" name="Deviation" resultButton="false" resultChatter="true" resultWindow="false" text="Deviation" tooltip="Deviation" windowTitleResultFormat="$name$" windowX="0" windowY="30">
-        <VASSAL.build.module.SpecialDie format="$result$" name="Direction">
-            <VASSAL.build.module.SpecialDieFace icon="" text="1" value="1"/>
-            <VASSAL.build.module.SpecialDieFace icon="" text="2" value="2"/>
-            <VASSAL.build.module.SpecialDieFace icon="" text="3" value="3"/>
-            <VASSAL.build.module.SpecialDieFace icon="" text="4" value="4"/>
-            <VASSAL.build.module.SpecialDieFace icon="" text="5" value="5"/>
-            <VASSAL.build.module.SpecialDieFace icon="" text="6" value="6"/>
-        </VASSAL.build.module.SpecialDie>
-        <VASSAL.build.module.SpecialDie format="$result$" name="Distance">
-            <VASSAL.build.module.SpecialDieFace icon="" text="1" value="1"/>
-            <VASSAL.build.module.SpecialDieFace icon="" text="2" value="2"/>
-            <VASSAL.build.module.SpecialDieFace icon="" text="3" value="3"/>
-            <VASSAL.build.module.SpecialDieFace icon="" text="4" value="4"/>
-            <VASSAL.build.module.SpecialDieFace icon="" text="5" value="5"/>
-            <VASSAL.build.module.SpecialDieFace icon="" text="6" value="6"/>
         </VASSAL.build.module.SpecialDie>
     </VASSAL.build.module.SpecialDiceButton>
     <VASSAL.build.module.PieceWindow hidden="true" hotkey="" icon="" name="Map Overlays" text="" tooltip="Show/Hide the Map Overlays window">
@@ -5831,6 +6003,40 @@
         <VASSAL.build.widget.PieceSlot entryName="Reiforcement &amp; Ambush" gpid="10823" height="1440" width="1440">+/null/replace;;57,520;VASSAL.build.module.PieceWindow:Map Overlays\/VASSAL.build.widget.PieceSlot:R&amp;A Hidden;null;0;0;false;192,130;R&amp;A Hidden;11257;0;false	button;57,520;-720;-720;66;66;Button\	prototype;Overlay\\	piece;;;Ambush_Reinforce.png;Reiforcement &amp; Ambush/	\	\\	null;0;0;10823</VASSAL.build.widget.PieceSlot>
         <VASSAL.build.widget.PieceSlot entryName="R&amp;A Hidden" gpid="10831" height="1440" width="1440">+/null/replace;;51,130;VASSAL.build.module.PieceWindow:Map Overlays\/VASSAL.build.widget.PieceSlot:Reiforcement &amp; Ambush;null;0;0;false;192,130;Reinforcement &amp; Ambush;11258;0;false	button;51,130;-720;-720;66;66;Button\	prototype;Overlay\\	piece;;;Counter_Scenario_Overlay_Show.png;R&amp;A Hidden/	\	\\	null;0;0;10831</VASSAL.build.widget.PieceSlot>
     </VASSAL.build.module.PieceWindow>
+    <VASSAL.build.module.DoActionButton doHotkey="false" doLoop="false" doReport="true" doSound="false" hotkey="" hotkeys="" icon="" index="false" indexProperty="" indexStart="1" indexStep="1" loopCount="1" loopType="counted" name="FEAT" postLoopKey="" preLoopKey="" reportFormat="$playerName$ uses FEAT!" soundClip="" text="FEAT" tooltip="FEAT" untilExpression="" whileExpression=""/>
+    <VASSAL.build.module.SpecialDiceButton format="$PlayerName$ * $name$: $result1$&quot; in direction $result2$ " hotkey="" icon="" name="Deviation (d3)" resultButton="false" resultChatter="true" resultWindow="false" text="Deviation (d3)" tooltip="Deviation (d3)" windowTitleResultFormat="$name$" windowX="0" windowY="0">
+        <VASSAL.build.module.SpecialDie format="$result$" name="1d6">
+            <VASSAL.build.module.SpecialDieFace icon="" text="1" value="1"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="2" value="2"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="3" value="3"/>
+        </VASSAL.build.module.SpecialDie>
+        <VASSAL.build.module.SpecialDie format="$result$" name="1d6">
+            <VASSAL.build.module.SpecialDieFace icon="" text="1" value="1"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="2" value="2"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="3" value="3"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="4" value="4"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="5" value="5"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="6" value="6"/>
+        </VASSAL.build.module.SpecialDie>
+    </VASSAL.build.module.SpecialDiceButton>
+    <VASSAL.build.module.SpecialDiceButton format="$PlayerName$ * $name$: $result2$&quot; in direction $result1$ " hotkey="" icon="" name="Deviation (d6)" resultButton="false" resultChatter="true" resultWindow="false" text="Deviation (d6)" tooltip="Deviation (d6)" windowTitleResultFormat="$name$" windowX="0" windowY="0">
+        <VASSAL.build.module.SpecialDie format="$result$" name="1d6">
+            <VASSAL.build.module.SpecialDieFace icon="" text="1" value="1"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="2" value="2"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="3" value="3"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="4" value="4"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="5" value="5"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="6" value="6"/>
+        </VASSAL.build.module.SpecialDie>
+        <VASSAL.build.module.SpecialDie format="$result$" name="1d6">
+            <VASSAL.build.module.SpecialDieFace icon="" text="1" value="1"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="2" value="2"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="3" value="3"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="4" value="4"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="5" value="5"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="6" value="6"/>
+        </VASSAL.build.module.SpecialDie>
+    </VASSAL.build.module.SpecialDiceButton>
     <VASSAL.build.module.PieceWindow hidden="true" hotkey="" icon="" name="Terrain Mask" text="Mask" tooltip="Show/Hide the Terrain Mask window">
         <VASSAL.build.widget.PanelWidget entryName="List" fixed="false" nColumns="3" vert="false">
             <VASSAL.build.widget.ListWidget divider="307" entryName="List" height="0" width="0">
