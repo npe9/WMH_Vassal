@@ -5,7 +5,7 @@
         <VASSAL.build.module.documentation.AboutScreen title="About Vassal"/>
         <VASSAL.build.module.documentation.AboutScreen fileName="Splash.jpg" title="About vWM/H"/>
         <VASSAL.build.module.documentation.BrowserHelpFile startingPage="http://z7.invisionfree.com/vassalwmh" title="WM/H Module Forums (Tutorials)"/>
-        <VASSAL.build.module.documentation.BrowserHelpFile startingPage="http://vassalwmh.co.cc/donate.html" title="Donate to WM/H Module"/>
+        <VASSAL.build.module.documentation.BrowserHelpFile startingPage="https://discord.gg/0gVwUY15pgdBQxKe" title="Discord Chat Server"/>
     </VASSAL.build.module.Documentation>
     <VASSAL.build.module.Chatter/>
     <VASSAL.build.module.GlobalOptions autoReport="Never" centerOnMove="Never" nonOwnerUnmaskable="Never" playerIdFormat="$playerName$" promptString="Opponents can unmask my pieces">
