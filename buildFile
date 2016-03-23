@@ -6858,4 +6858,228 @@
         <entry>Player Two</entry>
     </VASSAL.build.module.PlayerRoster>
     <VASSAL.build.module.ToolbarMenu description="Army Setup" hotkey="" icon="" menuItems="Player One,Player Two" text="Army Setup" tooltip="Display Private Army Setup Window"/>
+    <VASSAL.build.module.SpecialDiceButton format="$PlayerName$ = $result1$" hotkey="" icon="" name="Random Faction" resultButton="false" resultChatter="true" resultWindow="false" text="Random Faction" tooltip="Random Faction" windowTitleResultFormat="$name$" windowX="0" windowY="0">
+        <VASSAL.build.module.SpecialDie format="$result$" name="Faction">
+            <VASSAL.build.module.SpecialDieFace icon="" text="Cygnar" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Khador" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Protectorate of Menoth" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Cryx" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Retribution of Scyrah" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Mercenaries" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Convergence of Cyriss" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Trollbloods" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Circle Orboros" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Skorne" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Legion of Everblight" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Minions" value="0"/>
+        </VASSAL.build.module.SpecialDie>
+    </VASSAL.build.module.SpecialDiceButton>
+    <VASSAL.build.module.SpecialDiceButton format="$PlayerName$ = $result1$" hotkey="" icon="" name="Cygnar Caster" resultButton="false" resultChatter="true" resultWindow="false" text="Cygnar" tooltip="Cygnar Caster" windowTitleResultFormat="$name$" windowX="0" windowY="0">
+        <VASSAL.build.module.SpecialDie format="$result$" name="Random caster">
+            <VASSAL.build.module.SpecialDieFace icon="" text="Constance Blaize" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Major Markus 'Siege' Brisbane" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Lieutenant Allister Caine" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Captain Allister Caine" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Captain E. Dominic Darius" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Captain Victoria Haley" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Major Victoria Haley" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Major Prime Victoria Haley" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Captain Jeremiah Kraye" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Commander Adept Sebastian Nemo" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="General Adept Sebastian Nemo" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Artificer General Nemo" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Captain Kara Sloan" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Commander Coleman Stryker" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Lord Commander Stryker" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Lord General Coleman Stryker" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Commander Dalin Sturgis" value="0"/>
+        </VASSAL.build.module.SpecialDie>
+    </VASSAL.build.module.SpecialDiceButton>
+    <VASSAL.build.module.SpecialDiceButton format="$PlayerName$ = $result1$" hotkey="" icon="" name="Khador Caster" resultButton="false" resultChatter="true" resultWindow="false" text="Khador" tooltip="Khador Caster" windowTitleResultFormat="$name$" windowX="0" windowY="0">
+        <VASSAL.build.module.SpecialDie format="$result$" name="Random caster">
+            <VASSAL.build.module.SpecialDieFace icon="" text="Orsus Zoktavir, Butcher of Khardov" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Kommander Orsus Zoktavir" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Kommander Zoktavir, The Butcher Unleashed" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Kommander Sorscha Kratikoff" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Forward Kommander Sorscha Kratikoff" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Vladimir Tepesci, The Dark Prince" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Vladimir Tepesci, The Dark Champion" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Vladimir Tepesci, Great Prince of Umbrey" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Kommandant Irusk" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Supreme Kommandant Irusk" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Koldun Kommander Aleksandra Zerkova" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Obavnik Kommander Zerkova" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Karchev the Terrible" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Zevanna Agha, Old Witch of Khador" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Kommander Strakhov" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Kommander Harkevich, The Iron Wolf" value="0"/>
+        </VASSAL.build.module.SpecialDie>
+    </VASSAL.build.module.SpecialDiceButton>
+    <VASSAL.build.module.SpecialDiceButton format="$PlayerName$ = $result1$" hotkey="" icon="" name="Menoth Caster" resultButton="false" resultChatter="true" resultWindow="false" text="Menoth" tooltip="Menoth Caster" windowTitleResultFormat="$name$" windowX="0" windowY="0">
+        <VASSAL.build.module.SpecialDie format="$result$" name="Random caster">
+            <VASSAL.build.module.SpecialDieFace icon="" text="Anson Durst, Rock of the Faith" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Grand Scrutator Severius" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Hierarch Severius" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Harbinger of Menoth" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="High Allegiant Amon Ad'Raza" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="High Executioner Servath Reznik" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Servath Reznik, Wrath of Ages" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="High Exemplar Kreoss" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Grand Exemplar Kreoss" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Intercessor Kreoss" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="High Reclaimer" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Testament of Menoth" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Feora, Priestess of the Flame" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Feora, Protector of the Flame" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Thyra, Flame of Sorrow" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Vice Scrutator Vindictus" value="0"/>
+        </VASSAL.build.module.SpecialDie>
+    </VASSAL.build.module.SpecialDiceButton>
+    <VASSAL.build.module.SpecialDiceButton format="$PlayerName$ = $result1$" hotkey="" icon="" name="Cryx Caster" resultButton="false" resultChatter="true" resultWindow="false" text="Cryx" tooltip="Cryx Caster" windowTitleResultFormat="$name$" windowX="0" windowY="0">
+        <VASSAL.build.module.SpecialDie format="$result$" name="Random caster">
+            <VASSAL.build.module.SpecialDieFace icon="" text="Iron Lich Asphyxious" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Lich Lord Asphyxious" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Asphyxious the Hellbringer" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="War Witch Deneghra" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Wraith Witch Deneghra" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Deneghra the Soul Weaver" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Goreshade the Bastard" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Goreshade the Cursed" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Goreshade, Lord of Ruin" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Master Necrotech Mortenebra" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Lord Exhumator Scaverous" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Skarre, the Pirate Queen" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Skarre, Queen of the Broken Coast" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Sturgis the Corrupted" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Lich Lord Terminus" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Lich Lord Venethrax" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="The Witch Coven of Garlghast" value="0"/>
+        </VASSAL.build.module.SpecialDie>
+    </VASSAL.build.module.SpecialDiceButton>
+    <VASSAL.build.module.SpecialDiceButton format="$PlayerName$ = $result1$" hotkey="" icon="" name="Retribution Caster" resultButton="false" resultChatter="true" resultWindow="false" text="Retribution" tooltip="Retribution Caster" windowTitleResultFormat="$name$" windowX="0" windowY="0">
+        <VASSAL.build.module.SpecialDie format="$result$" name="Random caster">
+            <VASSAL.build.module.SpecialDieFace icon="" text="Garryth, Blade of Retribution" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Kaelyssa, Night's Whisper" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Lord Arcanist Ossyan" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Adeptis Rahn" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Ravyn, Eternal Light" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Thyron the Sword of Truth" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Dawnlord Vyros" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Vyros, Incissar of the Dawnguard" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Issyria, Sibyl of the Dawn" value="0"/>
+        </VASSAL.build.module.SpecialDie>
+    </VASSAL.build.module.SpecialDiceButton>
+    <VASSAL.build.module.SpecialDiceButton format="$PlayerName$ = $result1$" hotkey="" icon="" name="Mercenary Caster" resultButton="false" resultChatter="true" resultWindow="false" text="Mercenaries" tooltip="Mercenary Caster" windowTitleResultFormat="$name$" windowX="0" windowY="0">
+        <VASSAL.build.module.SpecialDie format="$result$" name="Random caster">
+            <VASSAL.build.module.SpecialDieFace icon="" text="Ashlynn D'Elyse" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Captain Bartolo Montador" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Captain Damiano" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Captain Phinneus Shae" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Cognifex Cyphon" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Drake MacBain" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Durgen Madhammer" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Exulon Thexus" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Fiona the Black" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="General Ossrum" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Gorten Grundback" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Magnus the Traitor" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Magnus the Warlord" value="0"/>
+        </VASSAL.build.module.SpecialDie>
+    </VASSAL.build.module.SpecialDiceButton>
+    <VASSAL.build.module.SpecialDiceButton format="$PlayerName$ = $result1$" hotkey="" icon="" name="Convergence Caster" resultButton="false" resultChatter="true" resultWindow="false" text="Convergence" tooltip="Convergence Caster" windowTitleResultFormat="$name$" windowX="0" windowY="0">
+        <VASSAL.build.module.SpecialDie format="$result$" name="Random caster">
+            <VASSAL.build.module.SpecialDieFace icon="" text="Aurora, Numen of Aerogenesis" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Axis, the Harmonic Enforcer" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Father Lucant, Divinity Architect" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Forge Master Syntherion" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Iron Mother Directrix" value="0"/>
+        </VASSAL.build.module.SpecialDie>
+    </VASSAL.build.module.SpecialDiceButton>
+    <VASSAL.build.module.SpecialDiceButton format="$PlayerName$ = $result1$" hotkey="" icon="" name="Trollbloods Caster" resultButton="false" resultChatter="true" resultWindow="false" text="Trollbloods" tooltip="Trollbloods Caster" windowTitleResultFormat="$name$" windowX="0" windowY="0">
+        <VASSAL.build.module.SpecialDie format="$result$" name="Random caster">
+            <VASSAL.build.module.SpecialDieFace icon="" text="Borka Kegslayer" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Borka, Vengeance of the Rimeshaws" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Calandra Truthsayer, Oracle of the Glimmerwood" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Captain Gunnbjorn" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Grim Angus" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Grissel Bloodsong, Fell Caller" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Grissel Bloodsong, Marshal of the Kriels" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Hoarluk Doomshaper, Dire Prophet" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Hoarluk Doomshaper, Rage of Dhunia" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Hoarluk Doomshaper, Shaman of the Gnarls" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Hunters Grim" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Jarl Skuld, Devil of the Thornwood" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Madrak Ironhide, Thornwood Chieftain" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Madrak Ironhide, World Ender" value="0"/>
+        </VASSAL.build.module.SpecialDie>
+    </VASSAL.build.module.SpecialDiceButton>
+    <VASSAL.build.module.SpecialDiceButton format="$PlayerName$ = $result1$" hotkey="" icon="" name="Circle Caster" resultButton="false" resultChatter="true" resultWindow="false" text="Circle" tooltip="Circle Caster" windowTitleResultFormat="$name$" windowX="0" windowY="0">
+        <VASSAL.build.module.SpecialDie format="$result$" name="Random caster">
+            <VASSAL.build.module.SpecialDieFace icon="" text="Baldur the Stonecleaver" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Baldur the Stonesoul" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Bradigus Thorle the Runecarver" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Cassius the Oathkeeper" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Grayle the Farstrider" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Kaya the Moonhunter" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Kaya the Wildborne" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Kromac the Ravenous" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Kromac, Champion of the Wurm" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Krueger the Stormlord" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Krueger the Stormwrath" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Mohsar the Desertwalker" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Morvahna the Autumnblade" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Morvahna the Dawnshadow" value="0"/>
+        </VASSAL.build.module.SpecialDie>
+    </VASSAL.build.module.SpecialDiceButton>
+    <VASSAL.build.module.SpecialDiceButton format="$PlayerName$ = $result1$" hotkey="" icon="" name="Skorne Caster" resultButton="false" resultChatter="true" resultWindow="false" text="Skorne" tooltip="Skorne Caster" windowTitleResultFormat="$name$" windowX="0" windowY="0">
+        <VASSAL.build.module.SpecialDie format="$result$" name="Random caster">
+            <VASSAL.build.module.SpecialDieFace icon="" text="Archdomina Makeda" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Dominar Rasheth" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Lord Arbiter Hexeris" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Lord Assassin Morghoul" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Lord Tyrant Hexeris" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Makeda &amp; the Exalted Court" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Master Ascetic Naaresh" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Master Tormentor Morghoul" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Supreme Aptimus Zaal" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Supreme Archdomina Makeda" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Tyrant Xerxis" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Void Seer Mordikaar" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Xerxis, Fury of Halaak" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Zaal, the Ancestral Advocate" value="0"/>
+        </VASSAL.build.module.SpecialDie>
+    </VASSAL.build.module.SpecialDiceButton>
+    <VASSAL.build.module.SpecialDiceButton format="$PlayerName$ = $result1$" hotkey="" icon="" name="Legion Caster" resultButton="false" resultChatter="true" resultWindow="false" text="Legion" tooltip="Legion Caster" windowTitleResultFormat="$name$" windowX="0" windowY="0">
+        <VASSAL.build.module.SpecialDie format="$result$" name="Random caster">
+            <VASSAL.build.module.SpecialDieFace icon="" text="Absylonia, Daughter of Everblight" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Absylonia, Terror of Everblight" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Bethayne, Voice of Everblight" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Kallus, Wrath of Everblight" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Lylyth, Herald of Everblight" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Lylyth, Reckoning of Everblight" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Lylyth, Shadow of Everblight" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Rhyas, Sigil of Everblight" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Saeryn and Rhyas, Talons of Everblight" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Saeryn, Omen of Everblight" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Thagrosh, Prophet of Everblight" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Thagrosh, the Messiah" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Vayl, Consul of Everblight" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Vayl, Disciple of Everblight" value="0"/>
+        </VASSAL.build.module.SpecialDie>
+    </VASSAL.build.module.SpecialDiceButton>
+    <VASSAL.build.module.SpecialDiceButton format="$PlayerName$ = $result1$" hotkey="" icon="" name="Minion Caster" resultButton="false" resultChatter="true" resultWindow="false" text="Minions" tooltip="Minion Caster" windowTitleResultFormat="$name$" windowX="0" windowY="0">
+        <VASSAL.build.module.SpecialDie format="$result$" name="Random caster">
+            <VASSAL.build.module.SpecialDieFace icon="" text="Bloody Barnabas" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Calaban the Gravewalker" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Dr. Arkadius" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Helga the Conqueror" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Jaga-Jaga, the Death Charmer" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Lord Carver, BMMD, Esq. III" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Maelok the Dreadbound" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Midas" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Rask" value="0"/>
+            <VASSAL.build.module.SpecialDieFace icon="" text="Sturm &amp; Drang" value="0"/>
+        </VASSAL.build.module.SpecialDie>
+    </VASSAL.build.module.SpecialDiceButton>
+    <VASSAL.build.module.ToolbarMenu description="Who's the Boss?" hotkey="" icon="" menuItems="Random Faction,Cygnar,Khador,Menoth,Cryx,Retribution,Mercenaries,Convergence,Trollbloods,Circle,Skorne,Legion,Minions" text="Who's the Boss?" tooltip="Pick a random faction/caster"/>
 </VASSAL.launch.BasicModule>
