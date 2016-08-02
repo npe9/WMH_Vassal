@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<VASSAL.launch.BasicModule VassalVersion="3.2.16" description="©2001-2016 Privateer Press, Inc." name="Warmachine &amp; Hordes MKII" nextPieceSlotId="25555" version="4.5.3">
+<VASSAL.launch.BasicModule VassalVersion="3.2.16" description="©2001-2016 Privateer Press, Inc." name="Warmachine &amp; Hordes MKII" nextPieceSlotId="25555" version="4.5.4">
     <cxio.malnorma.MalnormaFactory/>
     <VASSAL.build.module.Documentation>
         <VASSAL.build.module.documentation.AboutScreen title="About Vassal"/>
