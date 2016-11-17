@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<VASSAL.launch.BasicModule VassalVersion="3.2.16" description="©2001-2016 Privateer Press, Inc." name="Warmachine &amp; Hordes MKII" nextPieceSlotId="25804" version="4.5.5">
+<VASSAL.launch.BasicModule VassalVersion="3.2.16" description="©2001-2016 Privateer Press, Inc." name="Warmachine &amp; Hordes MKII" nextPieceSlotId="25814" version="4.5.5">
     <cxio.malnorma.MalnormaFactory/>
     <VASSAL.build.module.Documentation>
         <VASSAL.build.module.documentation.AboutScreen title="About Vassal"/>
@@ -128,6 +128,12 @@
                                 <VASSAL.build.widget.ListWidget divider="400" entryName="List" height="400" width="800">
                                     <VASSAL.build.widget.PieceSlot entryName="Bane Witch Agathia" gpid="25288" height="400" width="800">+/null/PROP;ModelName;false,0,100,false;Change Label:76\,130:R\,Change Label\:	prototype;Special\	mark;FocusFury\\	prototype;Warcaster\\\	prototype;Model\\\\	prototype;30mm Base\\\\\	emb2;;2;;Cycle Art Down;2;;Cycle Art Up;2;;;;;false;0;0;;;true;Sprite;;;false;SpriteLayer;1;1;true;;93,0;91,0\\\\\\	piece;;;X_30mm_R.png;Bane Witch Agathia/Bane Witch Agathia	\	7\\	\\\	\\\\	\\\\\	1\\\\\\	null;0;0;25288</VASSAL.build.widget.PieceSlot>
                                     <VASSAL.build.widget.PieceSlot entryName="Grid" gpid="25291" height="400" width="800">+/null/prototype;Warjack Grid	label;76,130;Change Label;16;;0,0,0;t;0;c;0;b;c;$pieceName$ ($label$);Dialog;0;0;TextLabel;\	piece;;;Z_Track_16.png;Grid/	Agathia\	null;0;0;25291</VASSAL.build.widget.PieceSlot>
+                                </VASSAL.build.widget.ListWidget>
+                            </VASSAL.build.widget.PanelWidget>
+                            <VASSAL.build.widget.PanelWidget entryName="Aiakos" fixed="false" nColumns="3" vert="false">
+                                <VASSAL.build.widget.ListWidget divider="400" entryName="List" height="400" width="800">
+                                    <VASSAL.build.widget.PieceSlot entryName="Captain Aiakos" gpid="25804" height="400" width="800">+/null/PROP;ModelName;false,0,100,false;Change Label:76\,130:R\,Change Label\:	prototype;Special\	mark;FocusFury\\	prototype;Warcaster\\\	prototype;Model\\\\	prototype;30mm Base\\\\\	emb2;;2;;Cycle Art Down;2;;Cycle Art Up;2;;;;;false;0;0;,;,;true;Sprite;;;false;SpriteLayer;1;1;true;;93,0;91,0\\\\\\	piece;;;X_30mm_R.png;Captain Aiakos/Captain Aiakos	\	6\\	\\\	\\\\	\\\\\	1\\\\\\	null;0;0;25804</VASSAL.build.widget.PieceSlot>
+                                    <VASSAL.build.widget.PieceSlot entryName="Grid" gpid="25805" height="400" width="800">+/null/prototype;Warjack Grid	label;76,130;Change Label;16;;0,0,0;t;0;c;0;b;c;$pieceName$ ($label$);Dialog;0;0;TextLabel;\	piece;;;Z_Track_17.png;Grid/	Aiakos\	null;0;0;25805</VASSAL.build.widget.PieceSlot>
                                 </VASSAL.build.widget.ListWidget>
                             </VASSAL.build.widget.PanelWidget>
                             <VASSAL.build.widget.PanelWidget entryName="Asphyxious" fixed="false" nColumns="3" vert="false">
@@ -535,6 +541,12 @@
                                         <VASSAL.build.widget.PieceSlot entryName="Haley Future" gpid="22253" height="400" width="800">+/null/PROP;ModelName;false,0,100,false;Change Label:76\,130:R\,Change Label\:	mark;FocusFury\	prototype;Warcaster\\	prototype;Model\\\	prototype;30mm Base\\\\	emb2;;2;;Cycle Art Down;2;;Cycle Art Up;2;;;;;false;0;0;C_30mm_R.png,180mmBlank.png;1,;true;Sprite;;;false;SpriteLayer;1;1;true;;93,0;91,0\\\\\	piece;;;C_30mm_R.png;Haley Future/Haley Future	4\	\\	\\\	\\\\	1\\\\\	null;0;0;22253</VASSAL.build.widget.PieceSlot>
                                         <VASSAL.build.widget.PieceSlot entryName="Grid" gpid="22254" height="400" width="800">+/null/prototype;Warjack Grid	label;76,130;Change Label;16;;0,0,0;t;0;c;0;b;c;$pieceName$ ($label$);Dialog;0;0;TextLabel;\	piece;;;Z_Track_10_5_5.png;Grid/	Haley3\	null;0;0;22254</VASSAL.build.widget.PieceSlot>
                                     </VASSAL.build.widget.ListWidget>
+                                </VASSAL.build.widget.ListWidget>
+                            </VASSAL.build.widget.PanelWidget>
+                            <VASSAL.build.widget.PanelWidget entryName="Jakes" fixed="false" nColumns="3" vert="false">
+                                <VASSAL.build.widget.ListWidget divider="400" entryName="List" height="400" width="800">
+                                    <VASSAL.build.widget.PieceSlot entryName="Captain Allison Jakes" gpid="25806" height="400" width="800">+/null/PROP;ModelName;false,0,100,false;Change Label:76\,130:R\,Change Label\:	mark;FocusFury\	prototype;Cygnaran Warcaster\\	prototype;Model\\\	prototype;30mm Base\\\\	emb2;;2;;Cycle Art Down;2;;Cycle Art Up;2;;;;;false;0;0;,C_30mm_R.png;,;true;Sprite;;;false;SpriteLayer;1;1;true;;93,0;91,0\\\\\	piece;;;C_30mm_R.png;Captain Allison Jakes/Captain Allison Jakes	6\	\\	\\\	\\\\	1\\\\\	null;0;0;25806</VASSAL.build.widget.PieceSlot>
+                                    <VASSAL.build.widget.PieceSlot entryName="Grid" gpid="25807" height="400" width="800">+/null/prototype;Warjack Grid	label;76,130;Change Label;16;;0,0,0;t;0;c;0;b;c;$pieceName$ ($label$);Dialog;0;0;TextLabel;\	piece;;;Z_Track_14.png;Grid/	Jakes\	null;0;0;25807</VASSAL.build.widget.PieceSlot>
                                 </VASSAL.build.widget.ListWidget>
                             </VASSAL.build.widget.PanelWidget>
                             <VASSAL.build.widget.PanelWidget entryName="Kara" fixed="false" nColumns="3" vert="false">
@@ -1002,6 +1014,12 @@
                                     <VASSAL.build.widget.PieceSlot entryName="Grid" gpid="25537" height="400" width="800">+/null/prototype;Warjack Grid	label;76,130;Change Label;16;;0,0,0;t;0;c;0;b;c;$pieceName$ ($label$);Dialog;0;0;TextLabel;\	piece;;;Z_Track_17.png;Grid/	Kozlov\	null;0;0;25537</VASSAL.build.widget.PieceSlot>
                                 </VASSAL.build.widget.ListWidget>
                             </VASSAL.build.widget.PanelWidget>
+                            <VASSAL.build.widget.PanelWidget entryName="Malakov" fixed="false" nColumns="3" vert="false">
+                                <VASSAL.build.widget.ListWidget divider="400" entryName="List" height="400" width="800">
+                                    <VASSAL.build.widget.PieceSlot entryName="Kommander Andrei Malakov" gpid="25808" height="400" width="800">+/null/PROP;ModelName;false,0,100,false;Change Label:76\,130:R\,Change Label\:	mark;FocusFury\	prototype;Warcaster\\	prototype;Model\\\	prototype;30mm Base\\\\	emb2;;2;;Cycle Art Down;2;;Cycle Art Up;2;;;;;false;0;0;180mmBlank.png,;,;true;Sprite;;;false;SpriteLayer;1;1;true;;93,0;91,0\\\\\	piece;;;K_30mm_R.png;Kommander Andrei Malakov/Kommander Andrei Malakov	6\	\\	\\\	\\\\	1\\\\\	null;0;0;25808</VASSAL.build.widget.PieceSlot>
+                                    <VASSAL.build.widget.PieceSlot entryName="Grid" gpid="25809" height="400" width="800">+/null/prototype;Warjack Grid	label;76,130;Change Label;16;;0,0,0;t;0;c;0;b;c;$pieceName$ ($label$);Dialog;0;0;TextLabel;\	piece;;;Z_Track_15.png;Grid/	Malakov\	null;0;0;25809</VASSAL.build.widget.PieceSlot>
+                                </VASSAL.build.widget.ListWidget>
+                            </VASSAL.build.widget.PanelWidget>
                             <VASSAL.build.widget.PanelWidget entryName="Old Witch" fixed="false" nColumns="3" vert="false">
                                 <VASSAL.build.widget.ListWidget divider="400" entryName="List" height="400" width="800">
                                     <VASSAL.build.widget.PieceSlot entryName="Zevanna Agha, Old Witch of Khador" gpid="65" height="400" width="800">+/null/prototype;Special	AreaOfEffect;255,153,153;30;77;false;Cull Soul;90,520;;true;;Cull Soul\	PROP;ModelName;false,0,100,false;Change Label:76\,130:R\,Change Label\:\\	mark;FocusFury\\\	prototype;Warcaster\\\\	prototype;Model\\\\\	prototype;30mm Base\\\\\\	emb2;;0;;Cycle Art Down;0;];Cycle Art Up;0;[;;;;false;0;0;K_W_OldWitch.png,180mmBlank.png;1,;true;Sprite;;;false;SpriteLayer;1;1;true;;93,0;91,0\\\\\\\	piece;;;K_30mm_R.png;Zevanna Agha, Old Witch of Khador/	false\	Old Witch of Khador\\	7\\\	\\\\	\\\\\	\\\\\\	1\\\\\\\	null;0;0;65</VASSAL.build.widget.PieceSlot>
@@ -1422,7 +1440,11 @@
                                     <VASSAL.build.widget.PieceSlot entryName="Grid" gpid="794" height="400" width="800">+/null/prototype;Warjack Grid	label;76,130;Change Label;16;;0,0,0;t;0;c;0;b;c;$pieceName$ ($label$);Dialog;0;0;TextLabel;\	piece;;;Z_Track_17.png;Grid/	Amon\	null;0;0;794</VASSAL.build.widget.PieceSlot>
                                 </VASSAL.build.widget.ListWidget>
                             </VASSAL.build.widget.PanelWidget>
-                            <VASSAL.build.widget.ListWidget divider="400" entryName="Anson Durst" height="400" width="800">
+                            <VASSAL.build.widget.ListWidget divider="400" entryName="Durant" height="400" width="800">
+                                <VASSAL.build.widget.PieceSlot entryName="Sovereign Tristan Durant" gpid="25810" height="400" width="800">+/null/PROP;ModelName;false,0,100,false;Change Label:76\,130:R\,Change Label\:	mark;FocusFury\	prototype;Warcaster\\	prototype;Model\\\	prototype;30mm Base\\\\	emb2;;2;;Cycle Art Down;2;;Cycle Art Up;2;;;;;false;0;0;,;1,;true;Sprite;;;false;SpriteLayer;1;1;true;;93,0;91,0\\\\\	piece;;;P_30mm_R.png;Sovereign Tristan Durant/Sovereign Tristan Durant	7\	\\	\\\	\\\\	1\\\\\	null;0;0;25810</VASSAL.build.widget.PieceSlot>
+                                <VASSAL.build.widget.PieceSlot entryName="Grid" gpid="25811" height="400" width="800">+/null/prototype;Warjack Grid	label;76,130;Change Label;16;;0,0,0;t;0;c;0;b;c;$pieceName$ ($label$);Dialog;0;0;TextLabel;\	piece;;;Z_Track_15.png;Grid/	Durant\	null;0;0;25811</VASSAL.build.widget.PieceSlot>
+                            </VASSAL.build.widget.ListWidget>
+                            <VASSAL.build.widget.ListWidget divider="400" entryName="Durst" height="400" width="800">
                                 <VASSAL.build.widget.PieceSlot entryName="Anson Durst" gpid="22269" height="400" width="800">+/null/PROP;ModelName;false,0,100,false;Change Label:76\,130:R\,Change Label\:	mark;FocusFury\	prototype;Warcaster\\	prototype;Model\\\	prototype;40mm Base\\\\	emb2;;2;;Cycle Art Down;2;;Cycle Art Up;2;;;;;false;0;0;P_Anson_Durst.png,180mmBlank.png;1,;true;Sprite;;;false;SpriteLayer;1;1;true;;93,0;91,0\\\\\	piece;;;P_40mm_R.png;Anson Durst/Anson Durst, Rock of the Faith	6\	\\	\\\	\\\\	1\\\\\	null;0;0;22269</VASSAL.build.widget.PieceSlot>
                                 <VASSAL.build.widget.PieceSlot entryName="Grid" gpid="22270" height="400" width="800">+/null/prototype;Warjack Grid	label;76,130;Change Label;16;;0,0,0;t;0;c;0;b;c;$pieceName$ ($label$);Dialog;0;0;TextLabel;\	piece;;;Z_Track_19.png;Grid/	Anson Durst\	null;0;0;22270</VASSAL.build.widget.PieceSlot>
                             </VASSAL.build.widget.ListWidget>
@@ -1826,6 +1848,12 @@
                 <VASSAL.build.widget.PanelWidget entryName="Retribution" fixed="false" nColumns="3" vert="false">
                     <VASSAL.build.widget.TabWidget entryName="Retribution Tabs">
                         <VASSAL.build.widget.ListWidget divider="600" entryName="Warcasters" height="400" width="800">
+                            <VASSAL.build.widget.PanelWidget entryName="Elara" fixed="false" nColumns="3" vert="false">
+                                <VASSAL.build.widget.ListWidget divider="400" entryName="List" height="400" width="800">
+                                    <VASSAL.build.widget.PieceSlot entryName="Elara, Death's Shadow" gpid="25812" height="400" width="800">+/null/PROP;ModelName;false,0,100,false;Change Label:76\,130:R\,Change Label\:	mark;FocusFury\	prototype;Warcaster\\	prototype;Model\\\	prototype;30mm Base\\\\	emb2;;2;;Cycle Art Down;2;;Cycle Art Up;2;;;;;false;0;0;,;1,;true;Sprite;;;false;SpriteLayer;1;1;true;;93,0;91,0\\\\\	piece;;;R_30mm.png;Elara, Death's Shadow/Elara, Death's Shadow	7\	\\	\\\	\\\\	1\\\\\	null;0;0;25812</VASSAL.build.widget.PieceSlot>
+                                    <VASSAL.build.widget.PieceSlot entryName="Grid" gpid="25813" height="400" width="800">+/null/prototype;Warjack Grid	label;76,130;Change Label;16;;0,0,0;t;0;c;0;b;c;$pieceName$ ($label$);Dialog;0;0;TextLabel;\	piece;;;Z_Track_16.png;Grid/	Elara\	null;0;0;25813</VASSAL.build.widget.PieceSlot>
+                                </VASSAL.build.widget.ListWidget>
+                            </VASSAL.build.widget.PanelWidget>
                             <VASSAL.build.widget.PanelWidget entryName="Garryth" fixed="false" nColumns="3" vert="false">
                                 <VASSAL.build.widget.ListWidget divider="400" entryName="List" height="400" width="800">
                                     <VASSAL.build.widget.PieceSlot entryName="Garryth, Blade of the Retribution" gpid="3422" height="400" width="800">+/null/PROP;ModelName;false,0,100,false;Change Label:76\,130:R\,Change Label\:	mark;FocusFury\	prototype;Warcaster\\	prototype;Model\\\	prototype;30mm Base\\\\	emb2;;0;;Cycle Art Down;0;];Cycle Art Up;0;[;;;;false;0;0;R_W_Garryth.png,180mmBlank.png;1,;true;Sprite;;;false;SpriteLayer;1;1;true;;93,0;91,0\\\\\	piece;;;R_30mm.png;Garryth, Blade of the Retribution/Garryth, Blade of the Retribution	6\	\\	\\\	\\\\	1\\\\\	null;0;0;3422</VASSAL.build.widget.PieceSlot>
@@ -1868,7 +1896,7 @@
                                     <VASSAL.build.widget.PieceSlot entryName="Grid" gpid="3427" height="400" width="800">+/null/prototype;Warjack Grid	label;76,130;Change Label;16;;0,0,0;t;0;c;0;b;c;$pieceName$ ($label$);Dialog;0;0;TextLabel;\	piece;;;Z_Track_16.png;Grid/	Ravyn\	null;0;0;3427</VASSAL.build.widget.PieceSlot>
                                 </VASSAL.build.widget.ListWidget>
                             </VASSAL.build.widget.PanelWidget>
-                            <VASSAL.build.widget.PanelWidget entryName="Thyron, Sword of Truth" fixed="false" nColumns="3" vert="false">
+                            <VASSAL.build.widget.PanelWidget entryName="Thyron" fixed="false" nColumns="3" vert="false">
                                 <VASSAL.build.widget.ListWidget divider="400" entryName="List" height="400" width="800">
                                     <VASSAL.build.widget.PieceSlot entryName="Thyron, Sword of Truth" gpid="22307" height="400" width="800">+/null/PROP;ModelName;false,0,100,false;Change Label:76\,130:R\,Change Label\:	mark;FocusFury\	prototype;Warcaster\\	prototype;Model\\\	prototype;40mm Base\\\\	emb2;;2;;Cycle Art Down;2;;Cycle Art Up;2;;;;;false;0;0;R_Thyron_40mm.png,180mmBlank.png;1,;true;Sprite;;;false;SpriteLayer;1;1;true;;93,0;91,0\\\\\	piece;;;R_40mm.png;Thyron, Sword of Truth/Thyron, Sword of Truth	6\	\\	\\\	\\\\	1\\\\\	null;0;0;22307</VASSAL.build.widget.PieceSlot>
                                     <VASSAL.build.widget.PieceSlot entryName="Grid" gpid="22308" height="400" width="800">+/null/prototype;Warjack Grid	label;76,130;Change Label;16;;0,0,0;t;0;c;0;b;c;$pieceName$ ($label$);Dialog;0;0;TextLabel;\	piece;;;Z_Track_18.png;Grid/	Thyron\	null;0;0;22308</VASSAL.build.widget.PieceSlot>
