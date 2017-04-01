@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<VASSAL.launch.BasicModule VassalVersion="3.2.17" description="©2001-2016 Privateer Press, Inc." name="Warmachine &amp; Hordes MKII" nextPieceSlotId="25845" version="4.5.6">
+<VASSAL.launch.BasicModule VassalVersion="3.2.17" description="©2001-2016 Privateer Press, Inc." name="Warmachine &amp; Hordes MKII" nextPieceSlotId="25847" version="4.5.6">
     <cxio.malnorma.MalnormaFactory/>
     <VASSAL.build.module.Documentation>
         <VASSAL.build.module.documentation.AboutScreen title="About Vassal"/>
@@ -3666,6 +3666,12 @@
                                 <VASSAL.build.widget.ListWidget divider="400" entryName="List" height="400" width="800">
                                     <VASSAL.build.widget.PieceSlot entryName="Bronzeback Titan" gpid="1069" height="400" width="800">+/null/PROP;ModelName;false,0,100,false;Change Label:76\,130:R\,Change Label\:	prototype;Warbeast\	prototype;Model\\	prototype;50mm Base\\\	emb2;;0;;Cycle Art Down;0;];Cycle Art Up;0;[;;;;false;0;0;S_B_Bronzeback_Titan.png,180mmBlank.png;1,;true;Sprite;;;false;SpriteLayer;1;1;true;;93,0;91,0\\\\	piece;;;S_50mm_R.png;Bronzeback Titan/Bronzeback Titan	\	\\	\\\	1\\\\	null;0;0;1069</VASSAL.build.widget.PieceSlot>
                                     <VASSAL.build.widget.PieceSlot entryName="Grid" gpid="649" height="400" width="800">+/null/prototype;Warjack Grid	label;76,130;Change Label;16;;0,0,0;t;0;c;0;b;c;$pieceName$ ($label$);Dialog;0;0;TextLabel;\	piece;;;Skorne_Bronzeback_Titan_grid.png;Grid/	Bronzeback Titan\	null;0;0;649</VASSAL.build.widget.PieceSlot>
+                                </VASSAL.build.widget.ListWidget>
+                            </VASSAL.build.widget.PanelWidget>
+                            <VASSAL.build.widget.PanelWidget entryName="Chiron" fixed="false" nColumns="3" vert="false">
+                                <VASSAL.build.widget.ListWidget divider="400" entryName="List" height="400" width="800">
+                                    <VASSAL.build.widget.PieceSlot entryName="Chiron" gpid="25845" height="400" width="800">+/null/PROP;ModelName;false,0,100,false;Change Label:76\,130:R\,Change Label\:	prototype;Warbeast\	prototype;Model\\	prototype;50mm Base\\\	emb2;;2;;Cycle Art Down;2;;Cycle Art Up;2;;;;;false;0;0;;;true;Sprite;;;false;SpriteLayer;1;1;true;;93,0;91,0\\\\	piece;;;S_50mm_R.png;Chiron/Chiron	\	\\	\\\	1\\\\	null;0;0;25845</VASSAL.build.widget.PieceSlot>
+                                    <VASSAL.build.widget.PieceSlot entryName="Grid" gpid="25846" height="400" width="800">+/null/prototype;Warjack Grid	label;76,130;Change Label;16;;0,0,0;t;0;c;0;b;c;$pieceName$ ($label$);Dialog;0;0;TextLabel;\	piece;;;Skorne_Chiron_grid.png;Grid/	Chiron\	null;0;0;25846</VASSAL.build.widget.PieceSlot>
                                 </VASSAL.build.widget.ListWidget>
                             </VASSAL.build.widget.PanelWidget>
                             <VASSAL.build.widget.PanelWidget entryName="Cyclops Brute" fixed="false" nColumns="3" vert="false">
